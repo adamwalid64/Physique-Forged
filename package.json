@@ -1,0 +1,18 @@
+{
+  "name": "workout-social-platform",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dirname": "^0.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "path": "^0.12.7"
+  }
+}

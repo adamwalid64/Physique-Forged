@@ -1,0 +1,129 @@
+/* Body -------------------------------------------*/
+body {
+    background-color: #6C4E31;
+    display: flex;
+    justify-content: center;
+}
+/* Nabar -------------------------------------------*/
+#navBar { /* CONTAINER */
+    /* Alignment */
+    width: 100%;
+    top:0;
+    left: 0;
+    height: 10%;
+
+    /* Positioning */
+    position: absolute;
+
+    /* Style */
+    background-color: #603F26;
+ 
+    /* Display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Flex Attributes */
+}
+
+#title {
+    font-size: 4vw;
+}
+
+/* Center Buttons -------------------------------------------*/
+#centerButtonContainer {
+
+    /* Alignment */
+    width: 100%;
+    height:auto;    
+    top: 20vh;
+    
+
+    /* Positioning */
+    position: absolute;
+
+    /* Style */
+
+    /* Display */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    row-gap: 40px;
+    
+}
+
+#diet-container {
+ background-color: #603F26;
+ width: 500px;
+
+
+ /* Display */
+ display: grid;
+
+ grid-template-rows: .45fr .20fr .45fr;
+ grid-template-columns: 1fr;
+
+ border-bottom: 100px #000000;
+
+ /* Style */
+ border: 12px ridge #000000;
+}
+
+
+#workout-container {
+ background-color: #603F26;
+ width: 500px;
+
+
+ /* Display */
+ display: grid;
+
+ grid-template-rows: .45fr .20fr .45fr;
+ grid-template-columns: 1fr;
+
+ /* Style */
+ border: 12px ridge #000000;
+}
+
+.card-image {
+   width: 100%;
+   
+}
+
+.card-button {
+    border-top: 12px ridge #000000;
+    border-bottom: 12px ridge #000000;
+
+    background-color: #b9b5ac;
+
+    color: #FABC3F;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    -webkit-text-stroke-width: .15vw;
+    -webkit-text-stroke-color: black;  
+    font-size: 3.5vw;
+
+}
+
+.description-text {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+    
+
+/* General Classes  -------------------------------------------*/
+
+/* Text Color and Font */
+.mainTextStyle {
+    color: #FABC3F;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    -webkit-text-stroke-width: .25vh;
+    -webkit-text-stroke-color: black;   
+}
+
+.subTextStyle {
+    font-family: "Pixelify Sans", sans-serif;
+    color: #b9b5ac;
+}
+
